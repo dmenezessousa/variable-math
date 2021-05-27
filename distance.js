@@ -5,5 +5,9 @@ const x2 = 15
 const y2 = 20
 
 // distance between coordinates
+const dx = x2 - x1;
+const dy = y2 - y1;
 
-console.log("The distance between Point (x1.y1) and point (x2, y2) is =", Math.sqrt((x2 - x1) *2 + (y2 - y1) *2));
+const d = Math.sqrt(dx**2 + dy**2);
+
+console.log(d);
